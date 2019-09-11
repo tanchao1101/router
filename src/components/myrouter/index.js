@@ -146,7 +146,7 @@ class Router {
       window.addEventListener('load', this.onHashChange.bind(this), false);
     } else {
       window.addEventListener(
-        'popstate ',
+        'popstate',
         this.onpopstateChange.bind(this),
         false
       );
